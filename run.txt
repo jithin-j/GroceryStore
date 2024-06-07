@@ -1,0 +1,8 @@
+For Celery to work, you need to start a worker. To do this, run the following command in a new terminal window:
+celery -A app.celery worker --loglevel=info
+
+For Backend:
+python3 app.py
+
+For Frontend:
+npm run dev
